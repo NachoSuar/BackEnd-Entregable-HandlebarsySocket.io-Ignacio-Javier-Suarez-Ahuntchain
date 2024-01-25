@@ -1,0 +1,11 @@
+<h2>{{title}}</h2>
+<h1>Lista de Productos</h1>
+{{#each products}}
+    <h2>{{this.Title}}</h2>
+    <p>{{this.Description}}</p>
+    <p>{{this.Stock}}</p>
+{{/each}}
+
+<a href="/realtimeproducts">Ver en Tiempo Real</a>
+
+
